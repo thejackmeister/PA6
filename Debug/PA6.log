@@ -1,10 +1,19 @@
-﻿Build started 11/15/2015 4:23:49 PM.
-Project "C:\Users\Jack Bull\Documents\Visual Studio 2012\Projects\PA6\PA6\PA6.vcxproj" on node 2 (ClCompile target(s)).
+﻿Build started 11/15/2015 8:46:40 PM.
+Project "C:\Users\Jack Bull\Documents\Visual Studio 2012\Projects\PA6\PA6\PA6\PA6.vcxproj" on node 2 (Build target(s)).
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt PA6.c
-  PA6.c
-Done Building Project "C:\Users\Jack Bull\Documents\Visual Studio 2012\Projects\PA6\PA6\PA6.vcxproj" (ClCompile target(s)).
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt TheRealPA6.c main.c
+  main.c
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\main.c(30): error C2059: syntax error : ')'
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\main.c(34): error C2143: syntax error : missing ')' before ','
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\main.c(34): error C2198: 'generate_start_point' : too few arguments for call
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\main.c(34): error C2059: syntax error : ')'
+  TheRealPA6.c
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\therealpa6.c(16): error C2001: newline in constant
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\therealpa6.c(17): error C2146: syntax error : missing ')' before identifier 'printf'
+c:\users\jack bull\documents\visual studio 2012\projects\pa6\pa6\pa6\therealpa6.c(17): error C2001: newline in constant
+  Generating Code...
+Done Building Project "C:\Users\Jack Bull\Documents\Visual Studio 2012\Projects\PA6\PA6\PA6\PA6.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.65
+Time Elapsed 00:00:01.21

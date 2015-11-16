@@ -4,6 +4,7 @@
 int main(void)
 {
 	char player1_board[10][10]= {{'~', '~'}, {'~', '~'}}, player2_board[10][10]={{'~','~'}, {'~','~'}};
+	char *battleshipsChosen[5];
 	int number_of_ships_placed = 0;
 
 	//FILE* outfile;
@@ -12,26 +13,26 @@ int main(void)
 	
 	srand((unsigned int) time(NULL)); // makes the random number generator more random
 
-	welcome_screen();
+	//welcome_screen();
 
-	initialize_game_board (player1_board, 10, 10);
+	//initialize_game_board (player1_board, 10, 10);
 
-	print_game_board(player1_board);
+	//print_game_board(player1_board);
 
-	select_who_starts_first();
+	//select_who_starts_first();
 
-	 do
-	 {
+	 //do
+	 //{
 		for( number_of_ships_placed = 0; number_of_ships_placed < 5; number_of_ships_placed++)
 		{
-			manually_place_ships_on_board(player1_board, 10,10);
+			manually_place_ships_on_board(player1_board, battleshipsChosen, number_of_ships_placed);
 		}
-	 }
-	 while( /*something to check if the same ship has been placed previously, or if ships run into eachother*/);
+	 //}
+	 //while( /*something to check if the same ship has been placed previously, or if ships run into eachother*/);
 
-	print_game_board(player1_board);
+	//print_game_board(player1_board);
 
-	generate_start_point( ,generate_direction(), );
+	//generate_start_point( ,generate_direction(), );
 
 
 

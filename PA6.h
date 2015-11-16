@@ -16,7 +16,7 @@ void print_game_board (char board[][10]);
 
 int select_who_starts_first(void); //determines if Player1 or Player2 goes first in the game
 
-void manually_place_ships_on_board(char  board[][10], int rows, int columns); //allows the user to place each of the 5 types of ships on his/her game board
+void manually_place_ships_on_board(char board[][10], char *battleshipsChosen[5], int ships_placed); //allows the user to place each of the 5 types of ships on his/her game board
 
 void randomly_place_ships_on_board(char board[][10], int rows, int columns); //randomly places the 5 types of ships on a given board
 
